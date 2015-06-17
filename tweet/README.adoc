@@ -1,0 +1,16 @@
+This demonstrates a "Hello Boot" application that fits in a single tweet.
+To run it http://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli[Install the Spring Boot CLI] and execute:
+
+   $ spring run app.groovy
+
+The application will be available at http://localhost:8080/
+
+You can also create an executable jar using
+
+   $ spring jar app.jar app.groovy
+
+By making the executable jar the Spring Boot CLI is no longer necessary.
+
+   $ java -jar app.jar
+
+For real applications, consider using Maven or Gradle based builds.

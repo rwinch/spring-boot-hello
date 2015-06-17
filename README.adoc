@@ -1,0 +1,5 @@
+This project demonstrates Hello Boot applications
+
+* link:tweet/[tweet] - Minimal Spring Boot application that fits in a tweet
+* link:boot-maven/[boot-maven] - Demonstrates a RESTful API with Boot using Maven
+* link:boot-gradle/[boot-gradle] - Demonstrates a RESTful API with Boot using Gradle

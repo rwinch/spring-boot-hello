@@ -1,0 +1,19 @@
+This demonstrates a simple application that exposes a RESTful API using Spring Boot and Maven.
+To run it ensure that you have https://maven.apache.org/download.cgi[Maven installed].
+
+You can the run this project using
+
+   $ mvn spring-boot:run
+
+The application will be available at http://localhost:8080/
+
+You can also create an executable jar using
+
+   $ mvn package
+
+By making the executable jar Maven is no longer necessary.
+Instead we can execute it using java command.
+
+   $ java -jar target/*.jar
+
+For additional information on using Spring Boot and Maven refer to http://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-maven-installation[Spring Boot Reference]
